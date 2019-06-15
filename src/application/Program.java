@@ -5,6 +5,8 @@
  */
 package application;
 
+import application.board.Position;
+
 /**
  *
  * @author USER
@@ -15,7 +17,8 @@ public class Program {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Position position = new Position(3,5);
+        System.out.println(position);
     }
     
 }
