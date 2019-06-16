@@ -14,13 +14,13 @@ import chess.ChessPiece;
 public class UI {
      public static void printBoard(ChessPiece[][] piece){
          for (int i = 0; i <piece.length; i++) {
-             System.out.print((8-i)+" ");
+             System.out.print((8-i)+"| ");
              for (int j = 0; j <piece.length; j++) {
                  printPiece(piece[i][j]);
              }
              System.out.println();
          }
-         System.out.println("  A B C D E F G H");
+         System.out.println("   A B C D E F G H");
      }
 
      private static void printPiece(ChessPiece piece){
