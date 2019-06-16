@@ -3,19 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package application.board;
+package board;
 
 /**
  *
  * @author USER
  */
-public class Position {
+public class Board {
     private int row;
     private int column;
+    private Piece [][] piece;
 
-    public Position(int row, int column) {
+    public Board(int row, int column) {
         this.row = row;
         this.column = column;
+        piece = new Piece[row][column];
     }
 
     public int getRow() {
@@ -26,17 +28,20 @@ public class Position {
         this.row = row;
     }
 
-    public int getColum() {
+    public int getColumn() {
         return column;
     }
 
-    public void setColum(int column) {
+    public void setColumn(int column) {
         this.column = column;
     }
-    
-    @Override
-    public String toString(){
-        return row + "," + column;
+
+    public Piece piece(int row,int column){
+        return piece[row][column];
     }
     
+    public Piece piece(Position position){
+        return piece[position.getRow()][position.getColum()];
+    }
+
 }
