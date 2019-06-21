@@ -3,16 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package board;
+package chess;
+
+import board.BoardException;
 
 /**
  *
  * @author USER
  */
-public class BoardException extends RuntimeException{
+public class ChessException extends BoardException {
     private static final long serialVersionUID = 1L;
-    public BoardException(String msg){
+    public ChessException(String msg){
         super(msg);
     }
-    
 }
