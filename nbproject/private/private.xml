@@ -14,7 +14,9 @@
             <file>file:/C:/Users/USER/Documents/chess_project/src/board/Piece.java</file>
             <file>file:/C:/Users/USER/Documents/chess_project/src/chess/ChessException.java</file>
             <file>file:/C:/Users/USER/Documents/chess_project/src/board/BoardException.java</file>
+            <file>file:/C:/Users/USER/Documents/chess_project/src/chess/pieces/Knight.java</file>
             <file>file:/C:/Users/USER/Documents/chess_project/src/chess/ChessMatch.java</file>
+            <file>file:/C:/Users/USER/Documents/chess_project/src/chess/pieces/Bishop.java</file>
             <file>file:/C:/Users/USER/Documents/chess_project/src/application/UI.java</file>
         </group>
     </open-files>

@@ -61,7 +61,7 @@ public class Board {
             return null;
         }
         Piece aux = piece(position);
-        this.piece[position.getRow()][position.getColumn()]=null;
+        piece[position.getRow()][position.getColumn()]=null;
         return aux;
     }
     
